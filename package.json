@@ -1,0 +1,16 @@
+{
+  "name": "newtube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forc17c/newtube-reloaded.git"
+  },
+  "author": "Changhyeon Kim<forc17c@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forc17c/newtube-reloaded/issues"
+  },
+  "homepage": "https://github.com/forc17c/newtube-reloaded#readme"
+}
