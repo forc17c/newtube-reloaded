@@ -2,15 +2,20 @@
   "name": "newtube",
   "version": "1.0.0",
   "description": "The best way to watch videos.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/forc17c/newtube-reloaded.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "Changhyeon Kim<forc17c@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/forc17c/newtube-reloaded/issues"
   },
-  "homepage": "https://github.com/forc17c/newtube-reloaded#readme"
+  "homepage": "https://github.com/forc17c/newtube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
