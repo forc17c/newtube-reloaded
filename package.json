@@ -9,7 +9,7 @@
   "scripts": {
     "win": "node index.js"
   },
-  "author": "Changhyeon Kim<forc17c@gmail.com>",
+  "author": "Changhyeon Kim <forc17c@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/forc17c/newtube-reloaded/issues"
