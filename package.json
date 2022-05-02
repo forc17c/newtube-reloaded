@@ -17,5 +17,9 @@
   "homepage": "https://github.com/forc17c/newtube-reloaded#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
   }
 }
