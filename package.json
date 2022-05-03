@@ -7,7 +7,7 @@
     "url": "git+https://github.com/forc17c/newtube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Changhyeon Kim <forc17c@gmail.com>",
   "license": "MIT",
