@@ -4,6 +4,10 @@ const PORT = 4000;
 
 const app = express();
 
+const handleHome = () => console.log("Somebody is trying to go home.");
+
+app.get("/", handleHome); // app.get("/", () => console.log("Somebody is trying to go home")); 로 쓸 수 있다.
+
 const handleListening = () =>
   console.log(`Server listening on port http://localhost:${PORT}`);
 
