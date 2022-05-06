@@ -2,7 +2,7 @@ import express from "express"; // const express = require("express"); 와 같다
 import morgan from "morgan";
 import globalRouter from "./routers/globalRouter";
 import videoRouter from "./routers/videoRouter";
-import userRouter from "./routers/userRouter";
+import userRouter from "./routers/userRouter"; // export defalut 에서 불러온 파일은 이름을 원하는대로 지을 수 있다.
 
 const PORT = 4000;
 
