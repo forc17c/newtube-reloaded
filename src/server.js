@@ -6,10 +6,13 @@ import userRouter from "./routers/userRouter"; // defalut export로 불러온 �
 
 const PORT = 4000;
 
+// 현재 작업 directory -> console.log(process.cwd());
+
 const app = express();
 const logger = morgan("dev"); // middleware의 하나
-app.use(logger); // app.use : 모든 app에 대하여 middleware를 적용
 
+app.set("view engine", "pug"); // express에 view engine이 pug라는 것을 알려준다. (pug를 view engine으로 설정한다)
+app.use(logger); // app.use : 모든 app에 대하여 middleware를 적용
 app.use("/", globalRouter);
 app.use("/videos", videoRouter);
 app.use("/users", userRouter);
