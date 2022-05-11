@@ -14,6 +14,7 @@ const logger = morgan("dev"); // middleware의 하나
 app.set("view engine", "pug"); // express에 view engine이 pug라는 것을 알려준다. (pug를 view engine으로 설정한다)
 app.set("views", process.cwd() + "/src/views"); // views 폴더가 src 폴더 안에 있어도 pug가 작동하게 해준다. (current working directory의 경로를 바꿔줌)
 app.use(logger); // app.use : 모든 app에 대하여 middleware를 적용
+app.use(express.urlencoded({ extended: true })); // -> 내 express application에 form의 value들을 이해할 수 있도록 하고, 자바스크립트 형식으로 변형시켜준다.
 app.use("/", globalRouter);
 app.use("/videos", videoRouter);
 app.use("/users", userRouter);
